@@ -1,0 +1,70 @@
+body{
+    padding: 20px;
+}
+nav{
+    display:flex;
+    flex-direction: column;
+    padding:10px;
+}
+nav a{
+    color: black;
+    padding: 10px;
+}
+@media(min-width:1024px){
+    nav{
+         flex-direction:row ;
+         gap:30px;
+    }
+}
+h1{
+    padding: 40px;
+    border: 20 solid rgb(9, 199, 104);
+    margin: 50px;
+}
+
+img{
+        width: 250px;
+        border-radius: 50px;
+        /* background-color:rgb(164, 28, 84); */
+        padding:20px;
+    
+}
+video{
+    width: 50%;
+    background-color: blue;
+    padding: 10px;
+}
+table,td,th{
+    border:1px solid rgb(233, 113, 44);
+    border-collapse: collapse;
+}
+th{
+    background-color: rgb(146, 27, 43);
+}
+button{
+    background-color: rgb(39, 28, 190);
+    border-radius: 5px;
+    border: none;
+    padding: 12px 20px;
+    margin: 20px;
+}
+button:havor{
+    background-color: rgb(122, 31, 152);
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+}
+.box{
+    padding: 20px;
+    text-align: center;
+    border: 1px solid rgb(142, 15, 112);
+    /* background-color: rgb(12, 219, 188); */
+}
+@media (max-width:660px) {
+    .grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+}
