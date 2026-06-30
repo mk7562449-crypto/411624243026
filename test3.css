@@ -1,0 +1,38 @@
+body{
+    font-family: Arial;
+    margin:40px;
+}
+
+h1{
+    color:darkblue;
+}
+
+input{
+    width:300px;
+    padding:10px;
+    font-size:16px;
+}
+
+button{
+    padding:10px 15px;
+    margin-left:5px;
+    cursor:pointer;
+}
+
+#messageContainer{
+    margin-top:20px;
+}
+
+.message{
+    background-color:#d4edda;
+    border:1px solid green;
+    padding:10px;
+    margin-top:10px;
+    border-radius:5px;
+}
+
+#status{
+    margin-top:20px;
+    font-weight:bold;
+    color:blue;
+}
